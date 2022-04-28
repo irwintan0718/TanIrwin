@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaJam Coffee House Jobs</title>
+        <link rel="stylesheet" href="javajam.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>“Want to work at JavaJam? Fill out the form below to
+                start yourapplication.”</p>
+            <form name="" method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+                    <label for="myName">Name:</label><input type="text" id="myName" name="myName">
+                    <label for="myEmail">Email:</label><input type="text" id="myEmail" name="myEmail">
+                    <label for="myExperience">Experience:</label><textarea id="myExperience" name="myExperience" rows="2" cols="20"></textarea>
+                    
+                    <!--Select List/Drop down list-->
+                    <select name="favfood">
+                        <option">Select Your Choice</option>
+                        <option>Laksa</option>
+                        <option>Noodles</option>
+                        <option>Burger</option>
+                        <option>Nasi Lemak</option>
+
+                    </select>
+
+                    <!--Check boc-->
+                    <input type="checkbox" name="Laksa">Laksa <br>
+                    <input type="checkbox" name="Noodles">Noodle <br>
+                    <input type="checkbox" name="Burger">Burger <br>
+                    <input type="checkbox" name="Nasi Lemak">Nasi Lemak <br>
+
+                    <!--Radio button-->
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+
+                    <input type="submit" id="mySubmit" value="Apply Now">
+            </form>
+        </main>
+        
+        <br>
+        <footer>
+            <i>Copyright &copy; 2022 JavaJam Coffee House <br> <small><b><a href="tani-wp21@student.tarc.edu.my">tani-wp21@student.tarc.edy.my</a></b></i>
+        </div>
+    </body>
+</html>
